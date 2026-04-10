@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    height: 100vh; /* ocupa toda la pantalla */
+    height: 100vh; 
     display: flex;
-    justify-content: center; /* centra horizontal */
+    justify-content: center; 
     align-items: center;
     background-image: url("assets/fondo.jpg");
     background-size: cover;
@@ -27,15 +27,15 @@ body {
     height: 100%;
 }
 
-/* TEXTO (centro) */
+/*centro */
 .contenido {
     margin-top: 30px;
     margin-bottom: center;
 }
 
 .card-sub-title {
-    margin-top: 10px;   /* separación del título */
-    margin-bottom: 15px; /* espacio antes del contenido */
+    margin-top: 10px;   
+    margin-bottom: 15px; 
     font-size: 0.95rem;
     color: #555;
 }
@@ -43,10 +43,10 @@ body {
 .card-text {
     line-height: 1.6;
     max-width: 90%;
-    margin: 0 auto; /* 🔥 centra el bloque */
+    margin: 0 auto; 
 }
 
-/* BOTONES (debajo del texto, con espacio) */
+
 .botones {
     display: flex;
     justify-content: center;
