@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh; /* ocupa toda la pantalla */
+    display: flex;
+    justify-content: center; /* centra horizontal */
+    align-items: center;
+    background-image: url("assets/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tarjeta-personal {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-personal:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* TEXTO (centro) */
+.contenido {
+    margin-top: 30px;
+    margin-bottom: center;
+}
+
+.card-sub-title {
+    margin-top: 10px;   /* separación del título */
+    margin-bottom: 15px; /* espacio antes del contenido */
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.card-text {
+    line-height: 1.6;
+    max-width: 90%;
+    margin: 0 auto; /* 🔥 centra el bloque */
+}
+
+/* BOTONES (debajo del texto, con espacio) */
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.hablemos {
+    margin-top: auto;
+    text-align: center;
+}
